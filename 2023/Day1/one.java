@@ -82,7 +82,6 @@ public class one{
             int f = foo(str,mp) * 10;
             int l = goo(str,mp);
             ans += (f + l);
-            // System.out.println(f);
         }
 
         System.out.println(ans);
