@@ -61,8 +61,8 @@ public class one{
     }
 
     public static void main(String args[]) throws Exception{
-        BufferedInputStream bif = new BufferedInputStream(new FileInputStream("input.txt"));
-        Scanner sc = new Scanner(bif);
+        
+        Scanner sc = new Scanner(new BufferedInputStream(new FileInputStream("Day1/input.txt")));
         int ans = 0;
         Map<String,Integer> mp = new HashMap<>();
 
